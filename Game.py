@@ -9,7 +9,7 @@ print("\n")
 
 # Player information
 name = input("What is your name? ... ")
-player = {"name": str(name), "health": 30, "experience": 0, "level": 1, "alive": True}  # ["key":value]
+player = {"name": name, "health": 30, "experience": 0, "level": 1, "alive": True}  # ["key":value]
 def print_player(player):
     for key, value in player.items():
         print(key, ":", value)
